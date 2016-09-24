@@ -1,0 +1,24 @@
+{
+  "name": "kura-search",
+  "main": "./lib/kura-search",
+  "version": "0.0.1",
+  "description": "Plugin for searching words in browser.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "kura-search:google",
+      "kura-search:ror",
+      "kura-search:ruby",
+      "kura-search:jquery",
+      "kura-search:atom"
+    ]
+  },
+  "repository": "https://github.com/atom/kura-search",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

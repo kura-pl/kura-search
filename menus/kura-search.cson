@@ -1,0 +1,43 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Search in'
+      'submenu': [
+        {
+          'label': 'google'
+          'command': 'kura-search:google'
+        }
+        {
+          'label': 'ruby-doc'
+          'command': 'kura-search:ruby'
+        }
+        {
+          'label': 'api-ror'
+          'command': 'kura-search:ror'
+        }
+        {
+          'label': 'api-jquery'
+          'command': 'kura-search:jquery'
+        }
+        {
+          'label': 'atom'
+          'command': 'kura-search:atom'
+        }
+      ]
+    }
+  ]
+# 'menu': [
+#   {
+#     'label': 'Packages'
+#     'submenu': [
+#       'label': 'kura-search'
+#       'submenu': [
+#         {
+#           'label': 'Toggle'
+#           'command': 'kura-search:toggle'
+#         }
+#       ]
+#     ]
+#   }
+# ]
